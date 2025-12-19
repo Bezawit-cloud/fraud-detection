@@ -22,16 +22,16 @@ This repository contains **preprocessing and analysis work** for two datasets:
 ### 1️⃣ Initial Observations
 
 **Fraud Data**
-- ✅ No missing values → clean dataset  
-- ⚠️ Target highly imbalanced → requires special handling  
-- 💰 `Amount` is skewed → consider log-transform or scaling  
-- 📊 `V1–V28` are anonymized PCA features → good for modeling  
-- ⏱ `Time` can be used for temporal features  
+-  No missing values → clean dataset  
+-  Target highly imbalanced → requires special handling  
+-  `Amount` is skewed → consider log-transform or scaling  
+-  `V1–V28` are anonymized PCA features → good for modeling  
+-  `Time` can be used for temporal features  
 
 **Credit Data**
-- ✅ No missing values  
-- ⚠️ Extremely imbalanced target (0 → 226,602; 1 → 378)  
-- 🔢 Most features numeric → ready for scaling  
+-  No missing values  
+-  Extremely imbalanced target (0 → 226,602; 1 → 378)  
+-  Most features numeric → ready for scaling  
 
 ---
 
@@ -123,5 +123,6 @@ This repository contains **preprocessing and analysis work** for two datasets:
 
 ---
 
-**Author:** Your Name  
+**Author:** Bezawit Assefa
 **Date:** 2025
+
