@@ -1,0 +1,28 @@
+data/
+# Python
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data files
+*.csv
+*.xlsx
+*.parquet
+*.h5
+
+# Environment
+venv/
+env/
+*.env
+
+# Logs and outputs
+*.log
+*.pdf
+*.png
+*.jpg
+
+# IDE files
+.vscode/
+.idea/
